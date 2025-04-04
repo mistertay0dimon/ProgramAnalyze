@@ -18,6 +18,5 @@ filepaths = [
 ]
 
 results = analyze_code(filepaths)
-print_results(res
-ults)
+print_results(results)
 ```
