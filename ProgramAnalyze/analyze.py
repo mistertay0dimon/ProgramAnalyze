@@ -25,7 +25,13 @@ def analyze_code(filepaths):
                     language = 'Java'
                 elif ext in ['.c', '.cpp', '.h']:
                     language = 'C/C++'
-                    
+                elif ext in ['.pas', '.pp', '.inc', '.dpr', '.lpr']:
+                        language = 'Pascal'
+                elif ext in ['.kt']:
+                     language = 'Kotlin'
+                elif ext in ['.cs']:
+                     language = 'C#'
+
                 if language:
                     if language not in language_counts:
                         language_counts[language] = 0
