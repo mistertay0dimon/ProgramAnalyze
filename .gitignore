@@ -1,7 +1,1 @@
-# Tests
-tests/
-tests/static
-tests/templates
-tests/server.py
-tests/templates/index.html
-tests/static/script.js
+tests.zip
