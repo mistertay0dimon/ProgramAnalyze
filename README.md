@@ -23,3 +23,15 @@ filepaths = [
 results = analyze_code(filepaths)
 print_results(results)
 ```
+
+Более упрощённый пример (Со звёздочкой):
+```python
+from ProgramAnalyze import AnalyzeAll, print_resul>
+
+filepaths = [
+    '*'  # Указываем '*' для анализа всех файлов в текущей директории
+]
+
+results, file_counts = AnalyzeAll(filepaths)
+print_results(results, file_counts)
+```
