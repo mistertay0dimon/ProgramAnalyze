@@ -1,5 +1,4 @@
-# ProgramAnalyze
-
+<img src="https://github.com/mistertay0dimon/ProgramAnalyze/blob/main/images/ProgramAnalyze_logo.png">
 ProgramAnalyze это библиотека для анализа исходного кода программ и показа сколько процентов занимает тот или иной язык программирования
 
 # Установка
