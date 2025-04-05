@@ -26,7 +26,7 @@ print_results(results)
 
 Более упрощённый пример (Со звёздочкой):
 ```python
-from ProgramAnalyze import AnalyzeAll, print_resul>
+from ProgramAnalyze import AnalyzeAll, print_results
 
 filepaths = [
     '*'  # Указываем '*' для анализа всех файлов в текущей директории
