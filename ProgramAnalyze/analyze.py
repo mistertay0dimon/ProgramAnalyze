@@ -21,6 +21,10 @@ def get_language(filepath):
         return 'Kotlin'
     elif ext in ['.cs']:
         return 'C#'
+    elif ext in ['.bat']:
+        return 'Batch'
+    elif ext in ['.ps1']:
+        return 'PowerShell'
     else:
         return None
 
