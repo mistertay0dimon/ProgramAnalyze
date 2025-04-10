@@ -15,7 +15,7 @@ def get_language(filepath):
         return 'Java'
     elif ext in ['.c', '.cpp', '.h']:
         return 'C/C++'
-    elif ext in ['.pas', '.pp', '.inc', '.dpr', '.lpr']:
+    elif ext in ['.pas', '.pp', '.inc', '.lpr']:
         return 'Pascal'
     elif ext in ['.kt']:
         return 'Kotlin'
@@ -25,6 +25,8 @@ def get_language(filepath):
         return 'Batch'
     elif ext in ['.ps1']:
         return 'PowerShell'
+    elif ext in ['.dpr']:
+        return 'Delphi'
     else:
         return None
 
