@@ -27,6 +27,8 @@ def get_language(filepath):
         return 'PowerShell'
     elif ext in ['.dpr']:
         return 'Delphi'
+    elif ext in ['.asm']:
+        return 'Assembly'
     else:
         return None
 
