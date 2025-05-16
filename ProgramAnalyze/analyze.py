@@ -29,8 +29,10 @@ def get_language(filepath):
         return 'Delphi'
     elif ext in ['.asm']:
         return 'Assembly'
+    elif ext in ['.vbs']:
+        return 'VBScript'
     else:
-        return None
+        return 'Other'
 
 def analyze_code(filepaths):
     if '*' in filepaths and len(filepaths) == 1:
