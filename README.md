@@ -5,7 +5,7 @@ ProgramAnalyze это библиотека для анализа исходно�
 
 Пример:
 
-<img src="https://github.com/mistertay0dimon/ProgramAnalyze/blob/main/images/termux_demo.jpg">
+<img src="https://github.com/mistertay0dimon/ProgramAnalyze/blob/main/images/demo.png">
 
 # Установка
 ```bash
